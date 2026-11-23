@@ -1,0 +1,7 @@
+===== HELLO________.A
+1  HOME 
+2  POKE 1010,28
+3  POKE 1011,01
+4  POKE 1012,FF
+5  PRINT  CHR$ (4);"RUN HELLO3"
+;; 3 bytes apos o fim do programa

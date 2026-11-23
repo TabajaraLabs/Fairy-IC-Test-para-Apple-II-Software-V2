@@ -1,0 +1,20 @@
+===== HELLO6________.A
+5  TEXT 
+10  HOME 
+20  HTAB 10: VTAB (10)
+30  PRINT "A: TTL 54/74 SERIES"
+40  HTAB 10: VTAB (12)
+50  PRINT "B: CMOS 40/45 SERIES"
+55  HTAB 10: VTAB (14)
+56  PRINT "C: HCMOS 74HC SERIES"
+60  HTAB 13: VTAB (17)
+70  PRINT "WHICH ONE ? A , B OR C ";
+80  INPUT A$
+90  IF A$ = "A" THEN  GOTO 150
+100  IF A$ = "B" THEN  GOTO 160
+105  IF A$ = "C" THEN  GOTO 170
+110  GOTO 10
+150  PRINT  CHR$ (4);"RUN HELLO4 <^C><^E><^W><^Q><^O><^R><^D> "
+160  PRINT  CHR$ (4);"RUN HELLO5 <^E><^Q><^W><^O><^C><^D><^R> "
+170  PRINT  CHR$ (4);"RUN HELLO7 <^R><^D><^O><^C><^Q><^W><^E> "
+;; 3 bytes apos o fim do programa
