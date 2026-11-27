@@ -35,11 +35,11 @@ O resto da operação é igual ao manual original. Veja `manual/Fairy_IC_Test_Ca
 | `analise/ferramentas/` | ferramentas Python: leitores DOS 3.3/ProDOS, gerador de imagem .po, conversor Elnec, simuladores da placa (py65) |
 | `analise/` | desmontagens anotadas, notas de hardware, travas, comparação com o Elnec, resultados de bancada |
 | `manual/` | manuais em PDF e os geradores |
-| `LEIA-ME_v20.md` | diário técnico do projeto (versão atual) |
+| `LEIA-ME_v21.md` e `.pdf` | diário técnico do projeto (versão atual) |
 
 Em cada diretório fica **só a versão mais nova** de cada arquivo. As versões anteriores ficam
 em um subdiretório `arquivo/` dentro do próprio diretório (por exemplo `analise/fonte/arquivo/`,
-`manual/arquivo/` e `arquivo/` na raiz, com os LEIA-ME v1 a v19). Os LEIA-ME antigos citam a pasta
+`manual/arquivo/` e `arquivo/` na raiz, com os LEIA-ME v1 a v20). Os LEIA-ME antigos citam a pasta
 de imagens pelo nome antigo, `patch/`, hoje `nova_versao/`.
 
 O manual é gerado por `manual/build_manual_v4.py`, que usa o texto e os desenhos de
