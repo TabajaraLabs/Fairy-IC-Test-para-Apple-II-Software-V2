@@ -30,7 +30,7 @@ O resto da operação é igual ao manual original. Veja `manual/Fairy_IC_Test_Ca
 
 | Pasta | Conteúdo |
 |---|---|
-| `original/` | disquete original (DOS 3.3), nunca alterado |
+| `original/` | disquete original da Fairy (DOS 3.3, nunca alterado), o disco REDSTONE IC TESTER e o disco oficial do ProDOS 2.4.3 (fonte do boot da v13) |
 | `nova_versao/` | versão atual: imagem ProDOS bootável `IC_Tester_ProDOS_v13.po` e os arquivos soltos dela (`arquivos_v13/`) |
 | `nova_versao/arquivo/` | versões anteriores (v1 a v12), guardadas como histórico; o diagnóstico `ICTDIAG.SYSTEM` e o motor avulso `ELNEC.ENG` estão em `arquivo/arquivos_v12/` |
 | `analise/fonte/` | fontes 6502 (ca65): carregador, gancho Elnec, motor, teste de RAM, diagnóstico |
