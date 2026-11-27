@@ -18,7 +18,7 @@ O programa original (disquete DOS 3.3, protegido contra cópia) foi preservado i
 
 ## Como usar
 
-1. Copie a imagem `patch/IC_Tester_ProDOS_v12.po` (atual) para o seu armazenamento ProDOS ou para um emulador de drive.
+1. Copie a imagem `nova_versao/IC_Tester_ProDOS_v12.po` (atual) para o seu armazenamento ProDOS ou para um emulador de drive.
 2. Execute `ICTESTER.SYSTEM`.
 3. Escolha A, B, C ou D e informe o slot da placa.
 
@@ -29,12 +29,13 @@ O resto da operação é igual ao manual original. Veja `manual/Fairy_IC_Test_Ca
 | Pasta | Conteúdo |
 |---|---|
 | `original/` | disquete original (DOS 3.3), nunca alterado |
-| `patch/` | imagens ProDOS `IC_Tester_ProDOS_vN.po` e os arquivos soltos de cada versão (`arquivos_vN/`); a mais nova é a atual |
+| `nova_versao/` | versão atual: imagem ProDOS `IC_Tester_ProDOS_v12.po` e os arquivos soltos dela (`arquivos_v12/`) |
+| `nova_versao/arquivo/` | versões anteriores (v1 a v11), guardadas como histórico |
 | `analise/fonte/` | fontes 6502 (ca65): carregador, gancho Elnec, motor, teste de RAM, diagnóstico |
 | `analise/ferramentas/` | ferramentas Python: leitores DOS 3.3/ProDOS, gerador de imagem .po, conversor Elnec, simuladores da placa (py65) |
 | `analise/` | desmontagens anotadas, notas de hardware, travas, comparação com o Elnec, resultados de bancada |
 | `manual/` | manuais em PDF e os geradores |
-| `LEIA-ME_vN.md` | diário técnico do projeto; o de número mais alto é o atual |
+| `LEIA-ME_vN.md` | diário técnico do projeto; o de número mais alto é o atual (os LEIA-ME antigos citam a pasta pelo nome antigo, `patch/`) |
 
 ## Estado
 
